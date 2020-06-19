@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Form</title>
+  <meta charset="UTF-8">
+  <!-- UIkit CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.4/dist/css/uikit.min.css" />
+
+<!-- UIkit JS -->
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.5.4/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.5.4/dist/js/uikit-icons.min.js"></script>
+</head>
+<body>
+
+<div class="uk-container uk-container-small" style=" background:#003F87;border-radius: 15px;margin-top: 5%;margin-left: 25%;height: 60%;">
+    <h1 class="uk-heading-bullet" style=" margin-top:2%; color: #ffffff; text-align: center;">Registration Form</h1>
+<form class="uk-form-stacked" action="." method="post" name="pass">
+
+    <div class="uk-margin">
+        <label class="uk-form-label" for="form-stacked-text" style="color: #ffffff; font-size: 30px;" name="name">Name</label>
+        <div class="uk-form-controls">
+            <input class="uk-input uk-form-width-large" id="form-stacked-text" type="text" placeholder="Enter your Name">
+        </div>
+    </div>
+ <div class="uk-margin">
+        <label class="uk-form-label" for="form-stacked-text" style="color: #ffffff; font-size: 30px;" >Contact</label>
+        <div class="uk-form-controls">
+            <input class="uk-input uk-form-width-large" id="form-stacked-text" type="text" placeholder="+91 * * * * * * * * * *" name="number">
+        </div>
+    </div>
+ <div class="uk-margin">
+        <label class="uk-form-label" for="form-stacked-text" style="color: #ffffff; font-size: 30px;">Email</label>
+        <div class="uk-form-controls">
+            <input class="uk-input uk-form-width-large" id="form-stacked-text" type="text" placeholder="host123@gamil.com" name="email">
+        </div>
+    </div>
+  <div class="uk-margin">
+    <label class="uk-form-label" for="form-stacked-text" style="color: #ffffff; font-size: 30px;">Message</label>
+            <textarea class="uk-textarea" rows="3" placeholder="Message" id="text" name="message" style="width: 55%;"></textarea>
+        </div>
+
+  <img src="https://previews.123rf.com/images/lembergvector/lembergvector1605/lembergvector160500243/57492222-back-view-of-business-man-working-on-desktop-computer-in-the-modern-office.jpg" id="img" style="  width: 45%;float:right;
+  margin-top: -40%;
+  margin-right: -2%;
+  border-radius: 15px;"> 
+   <div>
+    <input type="submit" value="submit">
+ </div>       
+</form>
+ <br><br>
+</div>
+<h1 >{{info}}</h1>
+</body>
+</html>
